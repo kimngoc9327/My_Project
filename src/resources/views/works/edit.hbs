@@ -1,0 +1,48 @@
+<div class="mt-4">
+  <h3>Cập nhật công việc</h3>
+  <form method="POST" action="/works/{{work._id}}?_method=PUT">
+    <div class="form-group">
+      <label for="name" class="form-label">Tên công việc</label>
+      <input
+        type="text"
+        class="form-control"
+        value="{{work.name}}"
+        id="name"
+        name="name"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="description" class="form-label">Mô tả</label>
+      <textarea
+        class="form-control"
+        id="description"
+        name="description"
+      >{{work.description}}</textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="time" class="form-label">Thời gian</label>
+      <input
+        type="text"
+        class="form-control"
+        value="{{work.time}}"
+        id="time"
+        name="time"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="level" class="form-label">Mức độ</label>
+      <input
+        type="text"
+        class="form-control"
+        value="{{work.level}}"
+        id="level"
+        name="level"
+      />
+    </div>
+
+    <button type="submit" class="create-btn btn btn-primary">Lưu</button>
+  </form>
+</div>

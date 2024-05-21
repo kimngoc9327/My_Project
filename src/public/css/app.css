@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .header-nav {
+    text-align: center;
+    display: block !important; } }
+
+body {
+  background-color: lightblue; }
+
+.logo-img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%; }
+
+.create-work {
+  color: white;
+  display: inline-block; }
+
+.create-icon {
+  margin-left: 4px; }
+
+.card {
+  box-shadow: 3px 3px 3px 3px #9b27be;
+  position: relative;
+  margin: 16px 0; }
+
+.update-work {
+  position: absolute;
+  right: 16px;
+  bottom: 16px; }
+
+.edit-btn, .delete-btn {
+  margin: 4px; }
+
+.create-btn {
+  margin-top: 16px; }
+
+#time {
+  width: 150px; }
+
+.form-control {
+  width: 800px; }
